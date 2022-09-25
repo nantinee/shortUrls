@@ -1,0 +1,82 @@
+body{
+    margin: 0px !important;
+}
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/product-backdrop-empty-marble-table-top-with-blue-wall-plant-shadow_53876-126934.jpg?w=2000&t=st=1664009267~exp=1664009867~hmac=d66e33b81bf6762b5b29328bd248b1d0b2a3f9fd29cac5c8d713cbbe25c678e7);
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+}
+
+.content {
+    margin-top: 20%;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+
+
+input,input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: white;
+}
+
+.social-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+}
+
+i {
+    padding: 5px;
+    color: white;
+
+}
+
+input,
+input:focus {
+    border: solid 1px white;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: nones;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.secondLine {
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 15%;
+    color: rgb(197, 194, 194);
+
+}
+
+.firstLine {
+    font-size: 40px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .firstLine {
+        font-size: 20px;
+    }
+}
+
